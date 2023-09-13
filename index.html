@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica 3</title>
+  <style>
+    .img-container {
+      text-align: center;
+      display: block;
+    }
+  </style>
+</head>
+
+<body style="background-color: black">
+  <div id="container" style="width: 800px">
+    <div id="header" style="background-color: black" img>
+      <table>
+        <tr>
+          <td>
+            <h1 style="color: white; text-align: center; display: block">
+              Personajes de
+            </h1>
+          </td>
+          <td>
+            <br />
+            <img src="logogow.gif" style="width: 300px; height: 100px" />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="menu" style="background-color: grey; height: 400px; width: 200px; float: left">
+      <b style="text-align: center; display: block">Menú</b><br />
+      <a href="practica2.html" style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            color: blue;
+          ">Home</a><br />
+      <a href="Kratos.html" style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            color: blue;
+          ">Kratos</a><br />
+      <a href="Atreus.html" style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            color: blue;
+          ">Atreus</a><br />
+      <a href="freya.html" style="
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+              serif;
+            color: blue;
+          ">Freya</a><br />
+    </div>
+    <div id="content" style="
+          background-color: white;
+          height: 400px;
+          width: 600px;
+          float: left;
+          text-align: justify;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          overflow-y: scroll;
+        ">
+      <font size="5">Esta es la pagina Inicial o home de bienvenida, para despazarse por
+        la información de los personajes de God of war, seleccionarlos al
+        menú.</font>
+      <br />
+      <br />
+      <table style="border: 2px solid black; margin: auto">
+        <th style="text-align: center; width: 180px">Personajes del juego</th>
+        <th style="text-align: center; width: 180px">Hogar</th>
+        <th style="text-align: center; width: 180px">Estado</th>
+        <tr>
+          <td style="text-align: center">Kratos</td>
+          <td>
+            <ul style="text-align: center">
+              <li>Esparta</li>
+              <li>Olimpo</li>
+              <li>Midgard</li>
+            </ul>
+          </td>
+          <td style="text-align: center">Vivo</td>
+        </tr>
+        <tr style="text-align: center">
+          <td>Freya</td>
+          <td>
+            <ul>
+              <li>Vanaheim</li>
+              <li>Midgard</li>
+            </ul>
+          </td>
+          <td>Viva</td>
+        </tr>
+        <tr style="text-align: center">
+          <td>Atreus</td>
+          <td>Midgard</td>
+          <td>Vivo</td>
+        </tr>
+      </table>
+      <span class="img-container">
+        <br />
+        <map name="Personajes">
+          <area shape="rect" coords="0,0,199,300" href="freya.html" alt="Freya" target="_blank">
+          <area shape="rect" coords="200,0,399,300" href="kratos.html" alt="Kratos" target="_blank">
+          <area shape="rect" coords="400,0,600,300" href="atreus.html" alt="Atreus" target="_blank">
+          <area shape="default" NOHREF alt="Nada">
+        </map>
+        <img src="imagenhiper.jfif" width="600px" height="300px" border=0 usemap="#Personajes">
+      </span>
+    </div>
+    <div id="footer" style="
+          background-color: darkred;
+          clear: both;
+          text-align: center;
+          color: white;
+        ">
+      God of War
+    </div>
+  </div>
+</body>
+
+</html>
